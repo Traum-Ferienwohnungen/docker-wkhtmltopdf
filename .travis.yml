@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build -t test-service .
+
+script:
+  - docker run -P test-service google.com output.pdf
