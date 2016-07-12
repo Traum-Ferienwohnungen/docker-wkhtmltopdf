@@ -8,3 +8,4 @@ before_install:
 
 script:
   - docker run -P test-service google.com output.pdf
+  - pdftotext -layout output.pdf - | grep -q Google
