@@ -5,6 +5,8 @@ services:
 
 before_install:
   - docker build -t test-service .
+  - sudo apt-get -qq update
+  - sudo apt-get install -y poppler-utils
 
 script:
   - docker run -P test-service google.com output.pdf
