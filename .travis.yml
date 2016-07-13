@@ -9,5 +9,5 @@ before_install:
   - sudo apt-get install -y poppler-utils
 
 script:
-  - docker run -P test-service google.com output.pdf
-  - pdftotext -layout output.pdf - | grep -q Google
+  - docker run -P test-service -q google.com - - > test.pdf 
+  - pdftotext -layout test.pdf - | grep -q Google
