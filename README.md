@@ -1,6 +1,7 @@
 # Wkhtmltopdf Docker Container
 
 [![Build Status](https://travis-ci.org/madnight/docker-wkhtmltopdf.svg?branch=master)](https://travis-ci.org/madnight/docker-wkhtmltopdf)
+[![Image Layers](https://images.microbadger.com/badges/image/traumfewo/docker-wkhtmltopdf.svg)](http://microbadger.com/images/traumfewo/docker-wkhtmltopdf)
 
 This docker container lets you run wkhtmltopdf in a docker container.
 
