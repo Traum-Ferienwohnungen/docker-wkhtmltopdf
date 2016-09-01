@@ -14,7 +14,7 @@ docker build .
 ## Using the image
 
 ```sh
-docker run -v <host_dir>:<container_dir> openlabs/docker-wkhtmltopdf http://www.google.com <container_dir>/output.pdf
+docker run -v <host_dir>:<container_dir> traumfewo/docker-wkhtmltopdf http://www.google.com <container_dir>/output.pdf
 ```
 
 The mounted volume can be used to send local html files and to save
@@ -28,8 +28,8 @@ HTML to PDF.
 
 See:
 
-* [wkhtmltopdf as a service container](https://registry.hub.docker.com/u/openlabs/docker-wkhtmltopdf-aas/)
-* [Github Repository](https://github.com/openlabs/docker-wkhtmltopdf-aas/)
+* [wkhtmltopdf as a service container](https://hub.docker.com/r/traumfewo/docker-wkhtmltopdf-aas/)
+* [Github Repository](https://github.com/traumfewo/docker-wkhtmltopdf-aas/)
 
 ## Bugs and questions
 
