@@ -29,7 +29,7 @@ HTML to PDF.
 See:
 
 * [wkhtmltopdf as a service container](https://hub.docker.com/r/traumfewo/docker-wkhtmltopdf-aas/)
-* [Github Repository](https://github.com/traumfewo/docker-wkhtmltopdf-aas/)
+* [Github Repository](https://github.com/Traum-Ferienwohnungen/docker-wkhtmltopdf-aas/)
 
 ## Bugs and questions
 
@@ -40,10 +40,4 @@ have a question or a bug report to file, you can report as a github issue.
 
 ## Authors and Contributors
 
-This image was built at [Openlabs](http://www.openlabs.co.in).
-
-## Professional Support
-
-This image is professionally supported by [Openlabs](http://www.openlabs.co.in).
-If you are looking for on-site teaching or consulting support, contact our
-[sales](mailto:sales@openlabs.co.in) and [support](mailto:support@openlabs.co.in) teams.
+The original image was built at [Openlabs](http://www.openlabs.co.in).
